@@ -1,7 +1,7 @@
 # https://www.hackerrank.com/challenges/python-arithmetic-operators/problem
 a = int(input())
 b = int(input())
-if (a >= 10000000000 or b >= 10000000000):
+if (a >= 10**10 or b >= 10**10):
     exit(1)
 else:
     print(a+b)
